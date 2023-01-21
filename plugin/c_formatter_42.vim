@@ -42,7 +42,7 @@ if g:c_formatter_42_format_on_save
 endif
 
 autocmd c_formatter_42 FileType c,cpp command! CFormatter42 call s:CFormatter42()
-autocmd c_formatter_42 FileType c,cpp nnoremap <F2> :CFormatter42<CR>
+" autocmd c_formatter_42 FileType c,cpp nnoremap <F2> :CFormatter42<CR>
 
 function! s:Norminette()
     let l:current_file = expand('%:p')
